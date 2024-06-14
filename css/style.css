@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Lato';
+    src: url(../fonts/Lato-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: 'M-Bold';
+    src: url(../fonts/Merriweather-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'S-Regular';
+    src: url(../fonts/SedgwickAve-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    bottom: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header .shapka{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header .btn button{
+    color: #f87932;
+    padding: 10px 30px ;
+    border-radius: 0px 0px 15px 15px;
+    border: none;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Lato';
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+header{
+    background-image: url(../img/fon.png);
+    background-size: cover;
+    height: 1107px;
+    position: relative;
+}
