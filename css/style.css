@@ -13,7 +13,7 @@
     src: url(../fonts/SedgwickAve-Regular.ttf);
 }
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     bottom: 0;
@@ -22,23 +22,23 @@
     text-decoration: none;
 }
 
-.container{
+.container {
     width: 1200px;
     margin: 0 auto;
 }
 
-header .shapka{
+header .shapka {
     display: flex;
     justify-content: space-evenly;
 }
 
-header .btn img{
+header .btn img {
     height: 70px;
 }
 
-header .btn button{
+header .btn button {
     color: #f87932;
-    padding: 10px 30px ;
+    padding: 10px 30px;
     border-radius: 0px 0px 15px 15px;
     border: none;
     background-color: #FFFFFF;
@@ -48,9 +48,9 @@ header .btn button{
     letter-spacing: 3px;
 }
 
-header .btn1 button{
+header .btn1 button {
     color: #f87932;
-    padding: 10px 30px ;
+    padding: 10px 30px;
     border-radius: 0px 0px 15px 15px;
     border: none;
     background-color: #FFFFFF;
@@ -61,45 +61,46 @@ header .btn1 button{
     transition: background-color 0.4s, box-shadow 0.4s;
 }
 
-header .btn1 button:hover{
+header .btn1 button:hover {
     background-color: #f87932;
     box-shadow: 0 0 0 2px #fff, 0 0 0 4px #f06a1d;
     color: #FFFFFF;
 }
 
-header{
+header {
     background-image: url(../img/fon.png);
     background-size: cover;
     height: 1107px;
 }
 
-header .text h2{
+header .text h2 {
     font-family: 'M-Bold';
     font-size: 80px;
-    color:#39BFA7;
+    color: #39BFA7;
 }
 
-header .text h3{
+header .text h3 {
     font-family: 'M-Bold';
     font-size: 80px;
     color: #f87932;
 }
 
-header .foto img{
+header .foto img {
     width: 100%;
     right: 0;
-    
+
 }
 
-header .foto, .text{
+header .foto,
+.text {
     width: 50%;
 }
 
-.part2  .container {
+.part2 .container {
     display: flex;
 }
 
-header .text .btn2 button{
+header .text .btn2 button {
     color: #FFFFFF;
     padding: 15px 30px;
     border: none;
@@ -112,7 +113,7 @@ header .text .btn2 button{
     margin-top: 70px;
 }
 
-header .btn2 button:hover{
+header .btn2 button:hover {
     background-color: #ffffff;
     border-radius: 15px;
     color: #f87932;
@@ -123,11 +124,68 @@ header .text {
     margin-top: 90px;
 }
 
-header .container{
+header .container {
     position: relative;
 }
 
-header .bok img{
+header .bok img {
     position: absolute;
-    width: 25%;
+    width: 20%;
+}
+
+.adventure {
+    margin-top: 100px;
+}
+
+main .adventure .container {
+    display: flex;
+    justify-content: center;
+}
+
+.adventure .levo,
+.pravo {
+    width: 50%;
+}
+
+.adventure .container .pravo img {
+    width: 100%;
+}
+
+.adventure .levo h4 {
+    font-size: 24px;
+    font-family: 'Lato';
+    font-weight: 600;
+}
+
+.adventure .levo h2 {
+    font-size: 60px;
+    font-family: 'M-Bold';
+    font-weight: 900;
+}
+
+.adventure .levo p {
+    font-size: 20px;
+    font-family: 'Lato';
+    font-weight: 500;
+    width: 75%;
+    margin-top: 20px;
+}
+
+main .adventure .btn2 button {
+    color: black;
+    padding: 15px 30px;
+    background-color: #ffffff;
+    font-size: 20px;
+    font-family: 'Lato';
+    font-weight: bold;
+    letter-spacing: 3px;
+    transition: 0.5s;
+    margin-top: 70px;
+}
+
+main .adventure .btn2 button:hover {
+    background-color: #f87932;
+    color: #ffffff;
+    border: none;
+    transition: 0.6s;
 }
