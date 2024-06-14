@@ -44,9 +44,29 @@ header .btn button{
     letter-spacing: 3px;
 }
 
+header .btn1 button{
+    color: #f87932;
+    padding: 10px 30px ;
+    border-radius: 0px 0px 15px 15px;
+    border: none;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Lato';
+    font-weight: bold;
+    letter-spacing: 3px;
+    transition: background-color 0.4s, box-shadow 0.4s;
+}
+
+header .btn1 button:hover{
+    background-color: #f87932;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #f06a1d;
+    color: #FFFFFF;
+}
+
 header{
     background-image: url(../img/fon.png);
     background-size: cover;
     height: 1107px;
     position: relative;
 }
+
