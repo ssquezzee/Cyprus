@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'Lato';
     src: url(../fonts/Lato-ExtraLight.ttf);
+    font-weight: 400;
 }
 
 @font-face {
@@ -202,6 +203,118 @@ main .adventure .btn2 button:hover {
     bottom: 110px;
 }
 
-.adventure .container{
+.adventure .container {
     position: relative;
+}
+
+.travel {
+    background-image: url(../img/фон\ для\ 3\ блока.png);
+    background-size: cover;
+    height: 1063px;
+}
+
+.travel .text h2 {
+    color: #fff;
+    font-size: 60px;
+    font-family: 'M-Bold';
+    font-weight: 900;
+    margin-top: 350px;
+}
+
+.travel .text h3 {
+    color: #fff;
+    font-size: 60px;
+    font-family: 'M-Bold';
+    font-weight: 900;
+}
+
+.travel .text p {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Lato';
+    letter-spacing: 3px;
+    font-weight: 1000;
+    margin-top: 30px;
+}
+
+.travel .text {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.travel .text img {
+    width: 15%;
+    margin-top: 90px;
+}
+
+.rombiki{
+    display: flex;
+    margin-top: 150px;
+}
+
+.romb {
+    width: 180px;
+    height: 180px;
+    background: #39BFA7;
+    transform: rotate(45deg);
+    margin-left: 90px;
+    border-radius: 5px;
+}
+
+.white {
+    width: 160px;
+    height: 160px;
+    background: white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.rombiki .r2{
+    width: 45px;
+    height: 45px;
+    background: #39BFA7;
+    border-radius: 5px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rombiki .r1{
+    width: 50px;
+    height: 50px;
+    background: #502e08;
+    border-radius: 5px;
+    margin-right: 50px;
+    padding: 3px;
+    
+}
+
+.rombiki .r2 p{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Lato';
+    font-weight: bold;
+    transform: rotate(-45deg);
+}
+
+.rombiki .text{
+    font-size: 28px;
+    font-family: 'Lato';
+    font-weight: bold;
+    transform: rotate(-45deg);
+    text-align: center;
+    margin-left: 10px;
+}
+
+.rombiki .text-1{
+    font-size: 28px;
+    font-family: 'Lato';
+    font-weight: bold;
+    transform: rotate(-45deg);
+    text-align: center;
 }
