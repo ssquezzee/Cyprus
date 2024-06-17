@@ -102,8 +102,7 @@ header .foto img {
 
 }
 
-header .foto,
-.text {
+header .foto,.text {
     width: 50%;
 }
 
@@ -133,15 +132,6 @@ header .btn2 button:hover {
 
 header .text {
     margin-top: 90px;
-}
-
-header .container {
-    position: relative;
-}
-
-header .bok img {
-    position: absolute;
-    width: 20%;
 }
 
 .adventure {
@@ -261,7 +251,7 @@ main .adventure .btn2 button:hover {
     margin-top: 90px;
 }
 
-.rombiki{
+.rombiki {
     display: flex;
     margin-top: 150px;
 }
@@ -286,7 +276,7 @@ main .adventure .btn2 button:hover {
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
 }
 
-.rombiki .r2{
+.rombiki .r2 {
     width: 45px;
     height: 45px;
     background: #39BFA7;
@@ -298,17 +288,17 @@ main .adventure .btn2 button:hover {
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
 }
 
-.rombiki .r1{
+.rombiki .r1 {
     width: 50px;
     height: 50px;
     background: #502e08;
     border-radius: 5px;
     margin-right: 50px;
     padding: 3px;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);  
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-.rombiki .r2 p{
+.rombiki .r2 p {
     color: #fff;
     font-size: 20px;
     font-family: 'Lato';
@@ -316,7 +306,7 @@ main .adventure .btn2 button:hover {
     transform: rotate(-45deg);
 }
 
-.rombiki .text{
+.rombiki .text {
     font-size: 28px;
     font-family: 'Lato';
     font-weight: bold;
@@ -325,13 +315,13 @@ main .adventure .btn2 button:hover {
     margin-left: 10px;
 }
 
-.rombiki .text-1{
+.rombiki .text-1 {
     font-size: 28px;
     font-family: 'Lato';
     font-weight: bold;
     transform: rotate(-45deg);
     text-align: center;
-}                
+}
 
 .blog .container {
     display: flex;
@@ -470,4 +460,110 @@ main .blog .btn button:hover {
     transition: 0.6s;
 }
 
+.roadmap {
+    background: url(../img/фон\ для\ 5\ блока.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 75px;
+}
 
+.roadmap .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #fff;
+}
+
+.roadmap .container h2 {
+    font-family: 'M-Bold';
+    font-size: 60px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.roadmap .container .welcome {
+    width: 157px;
+    height: 23px;
+    background: url(../img/image_2024-06-17_01-25-40.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.roadmap .container p {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 200;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+}
+
+.roadmap .container .pravo {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.roadmap .container .pravo h3 {
+    font-family: 'S-Regular';
+    font-size: 60px;
+    font-weight: 600;
+    color: #39BFA7;
+}
+
+.roadmap .container .pravo .card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.roadmap .container .pravo .card .nomer {
+    font-family: 'S-Regular';
+    font-size: 70px;
+    font-weight: 400;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.roadmap .container .pravo .card .data .mounth {
+    font-family: 'S-Regular';
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    justify-content: start;
+}
+
+.roadmap .container .pravo .card .data .slova {
+    font-family: 'M-Bold';
+    font-weight: 900;
+    font-size: 30px;
+    color: #fff;
+}
+
+.roadmap .container button {
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    background-color: #f87932;
+    font-size: 20px;
+    font-family: 'Lato';
+    font-weight: bold;
+    letter-spacing: 3px;
+    transition: 0.5s;
+    margin-bottom: 40px;
+}
+
+.roadmap .container button:hover {
+    background-color: #fff;
+    border-radius: 15px;
+    color: #f87932;
+    transition: 0.6s;
+}
