@@ -99,10 +99,11 @@ header .text h3 {
 header .foto img {
     width: 100%;
     right: 0;
-
+    margin-left: 50%;
 }
 
-header .foto,.text {
+header .foto,
+.text {
     width: 50%;
 }
 
@@ -219,7 +220,7 @@ main .adventure .btn2 button:hover {
     font-size: 60px;
     font-family: 'M-Bold';
     font-weight: 900;
-    margin-top: 350px;
+    margin-top: 40%;
 }
 
 .travel .text h3 {
@@ -253,7 +254,7 @@ main .adventure .btn2 button:hover {
 
 .rombiki {
     display: flex;
-    margin-top: 150px;
+    margin-top: 2%;
 }
 
 .romb {
@@ -263,7 +264,7 @@ main .adventure .btn2 button:hover {
     transform: rotate(45deg);
     margin-left: 90px;
     border-radius: 5px;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .white {
@@ -273,7 +274,7 @@ main .adventure .btn2 button:hover {
     border-radius: 5px;
     margin: 10px;
     padding: 10px;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .rombiki .r2 {
@@ -285,7 +286,7 @@ main .adventure .btn2 button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .rombiki .r1 {
@@ -334,10 +335,10 @@ main .adventure .btn2 button:hover {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 300px;
+    width: 100%;
 }
 
-.blog .container .text h2 {
+.blog .container h2 {
     display: flex;
     justify-content: center;
     font-family: 'MB';
@@ -345,7 +346,7 @@ main .adventure .btn2 button:hover {
     font-size: 50px;
 }
 
-.blog .container .text h3 {
+.blog .container h3 {
     display: flex;
     justify-content: center;
     font-family: 'MR';
@@ -365,8 +366,8 @@ main .adventure .btn2 button:hover {
 }
 
 .blog .container .text img {
-    width: 30%;
-    margin-left: 220px;
+    width: 20%;
+    margin-left: 40%;
     margin-top: 25px;
 }
 
@@ -566,4 +567,183 @@ main .blog .btn button:hover {
     border-radius: 15px;
     color: #f87932;
     transition: 0.6s;
+}
+
+.join .container .text h2 {
+    color: black;
+    font-family: 'M-Bold';
+    font-size: 60px;
+    margin-top: 4%;
+}
+
+.join .container .text img {
+    width: 20%;
+    margin-top: 1%;
+}
+
+.join .container .text p {
+    color: black;
+    font-family: 'Lato';
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+.join .container .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.join .container .form {
+    display: flex;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    margin-right: 150px;
+}
+
+.join .container .form .levo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.join .container .form .pravo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.join .container .form .levo,.pravo {
+    width: 50%;
+}
+
+.join .container .form .levo .name p {
+    font-family: 'Lato';
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+.join .container .form .pravo .name p {
+    font-family: 'Lato';
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+.join .container .form .levo input {
+    border: 1px solid #39BFA7;
+    margin-bottom: 25%;
+    width: 100%;
+    padding: 10% 100%;
+}
+
+.join .container .form .pravo input {
+    border: 1px solid #39BFA7;
+    margin-bottom: 25%;
+    width: 100%;
+    padding: 10% 100%;
+}
+
+.join .container .btn {
+    display: flex;
+    justify-content: center;
+}
+
+.join .container .btn button {
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    background-color: #f87932;
+    font-size: 20px;
+    font-family: 'Lato';
+    font-weight: bold;
+    letter-spacing: 3px;
+    transition: 0.5s;
+    margin-bottom: 40px;
+}
+.join .container .btn button:hover {
+    background-color: #39BFA7;
+    border-radius: 15px;
+    color: #fff;
+    transition: 0.6s;
+}
+
+footer{
+    background: #151C21;
+    padding-top: 5%;
+    margin-top: 5%;
+}
+
+footer .container .sleva{
+    display: flex;
+    margin-bottom: 5%;
+}
+
+footer .container .sleva .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container .sleva .logo, .text{
+    width: 25%;
+}
+
+footer .container .sleva .logo img{
+    width: 40%;
+}
+
+footer .container .sleva .text h2{
+    font-family: 'Lato';
+    font-size: 20px;
+    color: white;
+}
+
+footer .container .sleva .text p{
+    font-family: 'MR';
+    font-size: 16px;
+    color: white;
+}
+
+footer .container .sleva .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container hr{
+    border: 1px solid #414141;
+}
+
+footer .container .sprava{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+footer .container .sprava h2{
+    font-family: 'MR';
+    font-size: 16px;
+    margin-top: 5%;
+}
+
+footer .container .sprava p{
+    font-family: 'MR';
+    font-size: 16px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+footer .container .sprava .icon img{
+    width: 25%;
+    margin-left: 6%;
 }
