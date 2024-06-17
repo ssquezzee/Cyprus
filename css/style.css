@@ -715,6 +715,12 @@ footer .container .sleva .text p {
     color: white;
 }
 
+footer .container .sleva .trio{
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+}
+
 footer .container .sleva .text {
     display: flex;
     flex-direction: column;
@@ -774,6 +780,14 @@ footer .container .sprava .icon img {
         padding: 10px 5px;
         margin-left: 10px;
         width: 120%;
+    }
+
+    header .btn1 button{
+        border-radius: 0px 15px 15px 0px;
+    }
+
+    header .btn button{
+        border-radius: 0px 15px 15px 0px;
     }
 
     header .foto img {
@@ -869,6 +883,11 @@ footer .container .sprava .icon img {
     .rombiki .text-1 {
         font-size: 23px;
     }
+
+    
+.blog .container {
+    margin-top: 150px;
+}
 
     .blog .container h2 {
         font-size: 24px
@@ -1015,11 +1034,6 @@ footer .container .sprava .icon img {
         font-size: 10px;
     }
 
-    footer .container .sleva .trio {
-        flex-direction: column;
-        text-align: start;
-    }
-
     footer .container .sleva .logo img {
         width: 100%;
         margin-left: 60%;
@@ -1035,9 +1049,13 @@ footer .container .sprava .icon img {
         text-align: start;
     }
 
-    footer .container .sleva .text {
-        width: 160px;
-        margin-left: 40%;
+    footer .container .sleva .trio {
+        margin-left: 10%;
+        flex-direction: column;
+    }
+
+    footer .container .sleva .trio .text{
+        width: 100%;
     }
 
     footer .container .sprava h2 {
@@ -1052,4 +1070,6 @@ footer .container .sprava .icon img {
         width: 15%;
         margin-left: 12%;
     }
+
+    
 }
