@@ -34,7 +34,7 @@
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -463,6 +463,7 @@ main .blog .btn button:hover {
 
 .roadmap {
     background: url(../img/фон\ для\ 5\ блока.jpg) no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.466)), url(../img/фон\ для\ 5\ блока.jpg);
     background-size: cover;
     background-position: center;
     padding-top: 50px;
@@ -620,7 +621,8 @@ main .blog .btn button:hover {
     align-items: center;
 }
 
-.join .container .form .levo,.pravo {
+.join .container .form .levo,
+.pravo {
     width: 50%;
 }
 
@@ -667,6 +669,7 @@ main .blog .btn button:hover {
     transition: 0.5s;
     margin-bottom: 40px;
 }
+
 .join .container .btn button:hover {
     background-color: #39BFA7;
     border-radius: 15px;
@@ -674,55 +677,56 @@ main .blog .btn button:hover {
     transition: 0.6s;
 }
 
-footer{
+footer {
     background: #151C21;
     padding-top: 5%;
     margin-top: 5%;
 }
 
-footer .container .sleva{
+footer .container .sleva {
     display: flex;
     margin-bottom: 5%;
 }
 
-footer .container .sleva .logo{
+footer .container .sleva .logo {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-footer .container .sleva .logo, .text{
+footer .container .sleva .logo,
+.text {
     width: 25%;
 }
 
-footer .container .sleva .logo img{
+footer .container .sleva .logo img {
     width: 40%;
 }
 
-footer .container .sleva .text h2{
+footer .container .sleva .text h2 {
     font-family: 'Lato';
     font-size: 20px;
     color: white;
 }
 
-footer .container .sleva .text p{
+footer .container .sleva .text p {
     font-family: 'MR';
     font-size: 16px;
     color: white;
 }
 
-footer .container .sleva .text{
+footer .container .sleva .text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-footer .container hr{
+footer .container hr {
     border: 1px solid #414141;
 }
 
-footer .container .sprava{
+footer .container .sprava {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -730,30 +734,322 @@ footer .container .sprava{
     color: #fff;
 }
 
-footer .container .sprava h2{
+footer .container .sprava h2 {
     font-family: 'MR';
     font-size: 16px;
     margin-top: 5%;
 }
 
-footer .container .sprava p{
+footer .container .sprava p {
     font-family: 'MR';
     font-size: 16px;
     margin-top: 1%;
     margin-bottom: 2%;
 }
 
-footer .container .sprava .icon img{
+footer .container .sprava .icon img {
     width: 25%;
     margin-left: 6%;
 }
 
-@media (max-width:420px) {
+@media(max-width:420px) {
+
     .container {
         width: 320px;
     }
 
-    header .text h2{
-        color: #151C21;
+    header .text .tr {
+        font-size: 40px;
+        margin-left: 10px;
+        white-space: nowrap;
+    }
+
+    header .text h3 {
+        font-size: 40px;
+        margin-left: 10px;
+    }
+
+    header .text .btn2 button {
+        font-size: 8px;
+        padding: 10px 5px;
+        margin-left: 10px;
+        width: 120%;
+    }
+
+    header .foto img {
+        width: 130%;
+        margin-top: 350px;
+        margin-left: 10px;
+    }
+
+    header .shapka {
+        flex-direction: column;
+    }
+
+    header .shapka .btn,
+    .btn1 {
+        margin-bottom: 20px;
+    }
+
+    .adventure .levo h4 {
+        font-size: 12px;
+        margin-left: 70px;
+        text-align: center;
+    }
+
+    .adventure .levo h2 {
+        font-size: 30px;
+        margin-left: 70px;
+        text-align: center;
+    }
+
+    .adventure .levo p {
+        font-size: 10px;
+        width: 160%;
+        margin-left: 40px;
+        text-align: center;
+        margin-bottom: 140px;
+    }
+
+    .adventure .levo .img {
+        height: 300px;
+        width: 300px;
+        left: -10%;
+        bottom: 190px;
+    }
+
+    .adventure .container .pravo img {
+        width: 0;
+    }
+
+    main .adventure .btn2 button {
+        margin-top: 0px;
+        font-size: 10px;
+        margin-left: 90px;
+        width: 100%;
+    }
+
+    .travel .text h2 {
+        font-size: 20px;
+    }
+
+    .travel .text h3 {
+        font-size: 20px;
+    }
+
+    .travel .text p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .travel .text img {
+        width: 0;
+    }
+
+    .rombiki {
+        flex-wrap: wrap;
+    }
+
+    .romb {
+        width: 160px;
+        height: 160px;
+    }
+
+    .white {
+        width: 140px;
+        height: 140px;
+    }
+
+    .rombiki .text {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-size: 23px;
+    }
+
+    .rombiki .text-1 {
+        font-size: 23px;
+    }
+
+    .blog .container h2 {
+        font-size: 24px
+    }
+
+    .blog .container h3 {
+        font-size: 16px;
+    }
+
+    .blog .container .text p {
+        font-size: 8px;
+        text-align: center;
+    }
+
+    .blog .img .img {
+        flex-direction: column
+    }
+
+    .blog .img {
+        display: grid;
+        grid-template-columns: repeat(2, 132px);
+        grid-template-rows: repeat(4, 132px);
+        gap: 20px;
+        padding: 50px 0;
+        margin-left: 20px;
+    }
+
+    .blog .img .image:nth-child(1) {
+        background-image: url(../img/image\ \(2\).png);
+        background-size: cover;
+        grid-row-start: 1;
+        grid-column-start: 2;
+        grid-row-end: 3;
+        grid-column-end: 2;
+    }
+
+    .blog .img .image:nth-child(2) {
+        background-image: url(../img/image_2024-06-17_00-49-48.png);
+        background-size: cover;
+        background-position: center;
+        grid-row-start: 1;
+        grid-column-start: 1;
+        grid-row-end: 2;
+        grid-column-end: 1;
+    }
+
+    .blog .img .image:nth-child(3) {
+        background-image: url(../img/image_2024-06-17_00-49-56.png);
+        background-size: cover;
+        background-position: center;
+        grid-row-start: 4;
+        grid-column-start: 1;
+        grid-row-end: 5;
+        grid-column-end: 3;
+    }
+
+    .blog .img .image:nth-child(4) {
+        background-image: url(../img/image_2024-06-17_00-49-09.png);
+        background-size: cover;
+        background-position: center;
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-row-end: 3;
+        grid-column-end: 1;
+    }
+
+    .blog .img .image:nth-child(5) {
+        background-image: url(../img/image_2024-06-17_00-49-18.png);
+        background-size: cover;
+        background-position: center;
+        grid-row-start: 3;
+        grid-column-start: 1;
+        grid-row-end: 4;
+        grid-column-end: 2;
+    }
+
+    .blog .img .image:nth-child(6) {
+        background-image: url(../img/image_2024-06-17_00-49-38.png);
+        background-size: cover;
+        background-position: center;
+        grid-row-start: 3;
+        grid-column-start: 2;
+        grid-row-end: 4;
+        grid-column-end: 3;
+    }
+
+    main .blog .btn button{
+        font-size: 10px;
+    }
+
+    .roadmap .container h2 {
+        font-size: 30px;
+    }
+
+    .roadmap .container p {
+        font-size: 5.76px
+    }
+
+    .roadmap .container .pravo h3 {
+        font-size: 30px;
+    }
+
+    .roadmap .container .pravo .card .nomer {
+        font-size: 32px;
+    }
+
+    .roadmap .container .pravo .card .data .mounth {
+        font-size: 11.2px;
+    }
+
+    .roadmap .container .pravo .card .data .slova {
+        font-size: 16px;
+    }
+
+    .roadmap .pravo {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    .roadmap .container button {
+        font-size: 10px;
+    }
+
+    .join .container .text h2 {
+        font-size: 30px;
+    }
+
+    .join .container .form .levo .name p {
+        font-size: 14px;
+    }
+
+    .join .container .form .pravo .name p {
+        font-size: 14px;
+    }
+
+    .join .form {
+        flex-direction: column;
+        margin-left: 80px;
+        width: 50%;
+    }
+
+    .join .container .btn button {
+        font-size: 10px;
+    }
+
+    footer .container .sleva .trio {
+        flex-direction: column;
+        text-align: start;
+    }
+
+    footer .container .sleva .logo img {
+        width: 100%;
+        margin-left: 60%;
+    }
+
+    footer .container .sleva .text h2 {
+        font-size: 12.8px;
+        text-align: start;
+    }
+
+    footer .container .sleva .text p {
+        font-size: 12.34px;
+        text-align: start;
+    }
+
+    footer .container .sleva .text {
+        width: 160px;
+        margin-left: 40%;
+    }
+
+    footer .container .sprava h2 {
+        font-size: 9.6px;
+    }
+
+    footer .container .sprava p {
+        font-size: 9.6px;
+    }
+
+    footer .container .sprava .icon img {
+        width: 15%;
+        margin-left: 12%;
     }
 }
