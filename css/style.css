@@ -747,3 +747,13 @@ footer .container .sprava .icon img{
     width: 25%;
     margin-left: 6%;
 }
+
+@media (max-width:420px) {
+    .container {
+        width: 320px;
+    }
+
+    header .text h2{
+        color: #151C21;
+    }
+}
