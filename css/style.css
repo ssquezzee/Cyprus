@@ -152,17 +152,7 @@ header .text .btn2 button {
     font-family: 'Lato';
     font-weight: bold;
     letter-spacing: 3px;
-    transition: 0.2s;
     margin-top: 70px;
-}
-
-header .btn2 button:hover {
-    background-color: #ffffff;
-    color: #f87932;
-    transition: 0.2s;
-}
-
-header .text .btn2 button {
     border: 2px solid #F87932;
     background: linear-gradient(to left, #39BFA7 50%, #F87932 50%);
     background-size: 200% 100%;
@@ -171,8 +161,10 @@ header .text .btn2 button {
 }
 
 header .btn2 button:hover {
+    background-color: #ffffff;
     background-position: bottom right;
     color: #fff;
+    transition: 0.2s;
 }
 
 header .text {
@@ -843,6 +835,11 @@ footer .container .sprava .icon img {
         width: 0;
     }
 
+    .part2 .container {
+        margin-top: -15px;
+    }
+
+
     header .text .tr {
         font-size: 40px;
         margin-left: 10px;
@@ -872,7 +869,7 @@ footer .container .sprava .icon img {
 
     header .foto img {
         width: 130%;
-        margin-top: 350px;
+        margin-top: 291px;
         margin-left: 10px;
     }
 
@@ -906,10 +903,10 @@ footer .container .sprava .icon img {
     }
 
     .adventure .levo .img {
-        height: 300px;
+        height: 330px;
         width: 300px;
         left: -10%;
-        bottom: 190px;
+        bottom: 168px;
     }
 
     .adventure .container .pravo img {
@@ -925,10 +922,7 @@ footer .container .sprava .icon img {
 
     .travel .text h2 {
         font-size: 20px;
-    }
-
-    .travel .container .rombiki {
-        overflow-x: hidden;
+        margin-top: 80%;
     }
 
     .travel .text h3 {
@@ -936,7 +930,7 @@ footer .container .sprava .icon img {
     }
 
     .travel .text p {
-        font-size: 15px;
+        font-size: 12px;
         text-align: center;
     }
 
@@ -1066,6 +1060,7 @@ footer .container .sprava .icon img {
     .roadmap .container {
         border: 3px solid #fff;
         overflow-x: hidden;
+        width: 320px;
     }
 
     .roadmap .container h2 {
@@ -1078,10 +1073,12 @@ footer .container .sprava .icon img {
 
     .roadmap .container .pravo h3 {
         font-size: 30px;
+        margin-right: 128px;
     }
 
     .roadmap .container .pravo .card .nomer {
         font-size: 32px;
+        margin-right: 20px;
     }
 
     .roadmap .container .pravo .card .data .mounth {
@@ -1140,7 +1137,7 @@ footer .container .sprava .icon img {
     }
 
     footer .container .sleva .trio {
-        margin-left: 10%;
+        margin-left: 35%;
         flex-direction: column;
     }
 
