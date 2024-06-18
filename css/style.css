@@ -5,6 +5,11 @@
 }
 
 @font-face {
+    font-family: 'Lato-S';
+    src: url(../fonts/Lato-SemiBold.ttf);
+}
+
+@font-face {
     font-family: 'M-Bold';
     src: url(../fonts/Merriweather-Bold.ttf);
 }
@@ -38,18 +43,24 @@ body{
 }
 
 .container {
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
 }
 
-/* надо с картинкой разобраться */
-header .bok{ 
+header .bgg .bok img{
     position: absolute;
-    width: 00px;
-    left: 0;
+    width: 350px;
+    top: 0;
+}
+ 
+header .container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0;
 }
 
-header .container{
+.bgg{
     position: relative;
 }
 
@@ -64,33 +75,34 @@ header .btn img {
 
 header .btn button {
     color: #f87932;
-    padding: 10px 30px;
+    padding: 16px 24px;
     border-radius: 0px 0px 15px 15px;
     border: none;
     background-color: #FFFFFF;
-    font-size: 20px;
-    font-family: 'Lato';
-    font-weight: bold;
-    letter-spacing: 3px;
+    width: 130px;
+    height: 100px;
+    gap: 10;
 }
 
 header .btn1 button {
     color: #f87932;
-    padding: 10px 30px;
+    padding: 16px 24px;
     border-radius: 0px 0px 15px 15px;
     border: none;
     background-color: #FFFFFF;
     font-size: 20px;
-    font-family: 'Lato';
-    font-weight: bold;
+    font-family: 'Lato-S';
+    font-weight: 400;
     letter-spacing: 3px;
-    transition: background-color 0.4s, box-shadow 0.4s;
+    height: 62px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
 }
 
 header .btn1 button:hover {
-    background-color: #f87932;
-    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #f06a1d;
-    color: #FFFFFF;
+    height: 100px;
+    box-shadow: 0px 5px 10px 0px rgba(255,255,255, 0.5);
+    transition: 0.6s;
 }
 
 header {
@@ -103,6 +115,7 @@ header .text h2 {
     font-family: 'M-Bold';
     font-size: 80px;
     color: #39BFA7;
+    white-space: nowrap;
 }
 
 header .text h3 {
@@ -115,6 +128,7 @@ header .foto img {
     width: 100%;
     right: 0;
     margin-left: 50%;
+    margin-top: 1%;
 }
 
 header .foto,
@@ -124,6 +138,7 @@ header .foto,
 
 .part2 .container {
     display: flex;
+    margin-top: 90px;
 }
 
 header .text .btn2 button {
@@ -137,6 +152,7 @@ header .text .btn2 button {
     letter-spacing: 3px;
     transition: 0.5s;
     margin-top: 70px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 header .btn2 button:hover {
@@ -148,6 +164,7 @@ header .btn2 button:hover {
 
 header .text {
     margin-top: 90px;
+    margin-left: 3%;
 }
 
 .adventure {
@@ -194,7 +211,7 @@ main .adventure .btn2 button {
     padding: 16px 24px;
     background-color: #ffffff;
     font-size: 20px;
-    font-family: 'Lato';
+    font-family: 'Lato-S';
     font-weight: 900;
     letter-spacing: 3px;
     border: 2px solid #333;
@@ -325,7 +342,7 @@ main .adventure .btn2 button:hover {
 
 .rombiki .text {
     font-size: 28px;
-    font-family: 'Lato';
+    font-family: 'Lato-S';
     font-weight: bold;
     transform: rotate(-45deg);
     text-align: center;
@@ -334,7 +351,7 @@ main .adventure .btn2 button:hover {
 
 .rombiki .text-1 {
     font-size: 28px;
-    font-family: 'Lato';
+    font-family: 'Lato-S';
     font-weight: bold;
     transform: rotate(-45deg);
     text-align: center;
@@ -460,11 +477,10 @@ main .adventure .btn2 button:hover {
 
 main .blog .btn button {
     color: black;
-    padding: 15px 30px;
+    padding: 16px 24px;
     background-color: #ffffff;
     font-size: 20px;
-    font-family: 'Lato';
-    font-weight: 900;
+    font-family: 'Lato-S';
     letter-spacing: 3px;
     border: 2px solid #333;
     transition: 0.5s;
@@ -493,6 +509,9 @@ main .blog .btn button:hover {
     align-items: center;
     justify-content: center;
     border: 3px solid #fff ;
+    width: 1400px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .roadmap .container h2 {
@@ -534,6 +553,7 @@ main .blog .btn button:hover {
     font-size: 60px;
     font-weight: 600;
     color: #39BFA7;
+    text-align: right;
 }
 
 .roadmap .container .pravo .card {
@@ -547,16 +567,18 @@ main .blog .btn button:hover {
     font-size: 70px;
     font-weight: 400;
     color: #fff;
-    margin-right: 10px;
+    margin-right: 40px;
+    margin-bottom: 8%;
 }
 
 .roadmap .container .pravo .card .data .mounth {
     font-family: 'S-Regular';
     font-weight: 400;
     font-size: 18px;
-    color: #fff;
+    color: #ccc;
     display: flex;
     justify-content: start;
+    margin: 0;
 }
 
 .roadmap .container .pravo .card .data .slova {
@@ -643,13 +665,13 @@ main .blog .btn button:hover {
 }
 
 .join .container .form .levo .name p {
-    font-family: 'Lato';
+    font-family: 'Lato-S';
     font-size: 20px;
     margin-bottom: 10%;
 }
 
 .join .container .form .pravo .name p {
-    font-family: 'Lato';
+    font-family: 'Lato-S';
     font-size: 20px;
     margin-bottom: 10%;
 }
@@ -716,7 +738,7 @@ footer .container .sleva .logo,
 }
 
 footer .container .sleva .logo img {
-    width: 40%;
+    width: 20%;
 }
 
 footer .container .sleva .text h2 {
@@ -726,9 +748,10 @@ footer .container .sleva .text h2 {
 }
 
 footer .container .sleva .text p {
-    font-family: 'MR';
+    font-family: 'Lato';
     font-size: 16px;
     color: white;
+    margin-top: 4%;
 }
 
 footer .container .sleva .trio {
@@ -740,8 +763,7 @@ footer .container .sleva .trio {
 footer .container .sleva .text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
 }
 
 footer .container hr {
@@ -753,31 +775,39 @@ footer .container .sprava {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #bbb;
+
 }
 
 footer .container .sprava h2 {
-    font-family: 'MR';
+    font-family: 'Lato';
     font-size: 16px;
     margin-top: 5%;
 }
 
 footer .container .sprava p {
-    font-family: 'MR';
+    font-family: 'Lato';
     font-size: 16px;
     margin-top: 1%;
     margin-bottom: 2%;
+    font-weight: bold;
+    color: #bbb;
 }
 
 footer .container .sprava .icon img {
-    width: 25%;
+    width: 15%;
     margin-left: 6%;
+    margin-bottom: 60%;
 }
 
 @media(max-width:420px) {
 
     .container {
         width: 320px;
+    }
+
+    header .bgg .bok img{
+        width: 0;
     }
 
     header .text .tr {
@@ -800,6 +830,7 @@ footer .container .sprava .icon img {
 
     header .btn1 button {
         border-radius: 0px 15px 15px 0px;
+
     }
 
     header .btn button {
