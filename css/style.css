@@ -825,6 +825,42 @@ footer .container .sprava .icon img {
     margin-bottom: 60%;
 }
 
+@media(max-width:720px) {
+    .container {
+        width: 500px;
+    }
+
+    header .bgg .bok img {
+        width: 0;
+    }
+
+    .part2 .foto img{
+        width: 0;
+    }
+
+    header .shapka {
+        flex-direction: column;
+    }
+
+    header .text .tr {
+        font-size: 40px;
+        margin-left: 10px;
+        white-space: nowrap;
+    }
+
+    header .text h3 {
+        font-size: 40px;
+        margin-left: 10px;
+    }
+
+    header .text .btn2 button {
+        font-size: 8px;
+        padding: 10px 5px;
+        margin-left: 10px;
+        width: 120%;
+    }
+}
+
 @media(max-width:420px) {
 
     .container {
@@ -832,6 +868,10 @@ footer .container .sprava .icon img {
     }
 
     header .bgg .bok img {
+        width: 0;
+    }
+
+    .part2 .foto img{
         width: 0;
     }
 
